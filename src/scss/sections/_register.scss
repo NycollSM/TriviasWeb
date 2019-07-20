@@ -50,12 +50,14 @@
 
 .btn-ui{
     background-color: $purple-dark;
-    border-radius: 25px;
+    border-radius: 20px;
     color: $white;
     cursor: pointer;
     font-size: 1.3rem;
     font-weight: bold;
+    border:0px solid;
     letter-spacing: 1px;
     text-transform: capitalize;
     padding: 15px 80px;
+    grid-column: 1/ span 2;
 }

@@ -20,7 +20,15 @@ h1, h2, h3, h4{
     color: $white;
     text-align: left;
 }
- 
+form{
+    grid-column: 1/span 2;
+}
 label{
     color:$white;
+    text-align: left;
+}
+textarea{
+    resize: none;
+    width: 100%;
+    margin: 8px 0px;
 }
