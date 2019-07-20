@@ -1,0 +1,16 @@
+{
+    "Cars": [
+        {
+            "User": "jimmy",
+            "Password": "1234",
+            "Level" : 0,
+            "id": 0
+        },
+        {
+            "User": "nicole",
+            "Password": "1234",
+            "Level" : 0,
+            "id": 5
+        }
+    ]
+}
