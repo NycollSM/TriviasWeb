@@ -1,0 +1,57 @@
+{   "questions":[
+    {
+        "question": "Cual es una HTML",
+        "options": [
+                {  
+                    "value": false,
+                    "a": "es un lenguaje de programacion"
+                },
+                {   
+                    "value":true,
+                    "b": "es un lenguaje de Hipertexto"
+                },
+                {
+                    "value":false,
+                    "c": "es un lenguaje de texto plano"
+                }
+            ]
+    },
+    {
+        "question": "Para que se utiliza CSS?",
+        "options":[
+            {
+                "value":false,
+                "a": "para escribir el contenido de la pagina"
+            },
+            {
+                "value":true,
+                "b": "para darle estilos a los elementos de la pagina"
+            },
+            {
+                "value":false,
+                "c": "para hacer que los datos se guarden en una base de datos"
+            }
+        ]
+    },
+    {
+        "question": "cual es un principio de diseño",
+        "options":[
+            {
+                "value": true,
+                "a": "La forma sigue la funcion"
+            },
+            {
+                "value":false,
+                "b": "Las cosas que tienen la misma funcion pueden verse diferentes"
+            },
+            {
+                "value":false,
+                "c":"Tener texto grandes es mejor para los usuarios, asi lo leen todo de una vez"
+            }
+        ]
+    }
+
+       
+       
+    ]
+}
