@@ -5,11 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <div class="container">
-        <button>Play</button>  
+        <button class="btn-ui" id="btn-play">Play</button>
+        <button class="">Nueva Pregunta</button>
+        <form action="">
+            <div class="wrapper--form-question">
+                <label for="newQuestion">Pregunta</label>
+                <textarea placeholder="escriba pregunta" id="newQuestion"></textarea>
+            </div>
+            <div class="wrapper--form--Select">
+                <label for="answerCorrect">Respuesta Correcta</label>
+                <textarea name="respuesta" placeholder="escriba respuesta" id="answerCorrect"></textarea>
+                <label for="answerIncorrect1">Respuesta incorrecta #1</label>
+                <textarea name="respuesta" placeholder="escriba respuesta" id="answerIncorrect1"></textarea>
+                <label for="answerIncorrect2">Respuesta incorrecta #2</label>
+                <textarea name="respuesta" placeholder="escriba respuesta" id="answerIncorrect2"></textarea>
+            </div>
+        </form>
     </div>
 </body>
 </html>
