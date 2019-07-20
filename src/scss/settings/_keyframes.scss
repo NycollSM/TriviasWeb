@@ -2,11 +2,19 @@
     0%{
         opacity: 1;
     }
-    40%{
+    45%{
         opacity: 1;
     }
     100%{
         opacity: 0;
         visibility: hidden;
+    }
+}
+
+@keyframes scale{
+    to{
+        transform: scale(1);
+        visibility: hidden;
+        opacity: 0;
     }
 }
