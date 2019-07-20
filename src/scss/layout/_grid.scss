@@ -3,3 +3,13 @@
     height: 100vh;
     padding: 10%;
 }
+
+.loader{
+    background: $blue-light;
+    bottom: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    padding: 5%;
+    z-index: 2;
+}

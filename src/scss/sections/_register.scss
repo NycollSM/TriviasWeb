@@ -25,26 +25,17 @@
     transform: scale(0.1)
 }
 
-.loader{
-    background: $blue-light;
-    bottom: 0;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 2;
-}
 
 .members{
     display: grid;
     align-items: center;
 }
 
-.members > h1{
+.members > h2{
     margin: 0;
     margin-bottom: 20px;
     color: $white;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .members__title{
