@@ -11,21 +11,26 @@
 <body>
     <div class="container2">
         <button class="btn-ui" id="btn-play">Play</button>
-        <button class="btn-ui">Nueva Pregunta</button>
-        <form action="" id="question">
-            <div class="wrapper--form-question">
-                <label for="newQuestion">Pregunta</label>
-                <textarea placeholder="Pregunta" id="newQuestion"></textarea>
-            </div>
-            <div class="wrapper--form--Select">
-                <label for="answerCorrect">Respuesta Correcta</label>
-                <textarea name="respuesta" placeholder="Respuesta Correcta" id="answerCorrect"></textarea>
-                <label for="answerIncorrect1">Respuesta incorrecta #1</label>
-                <textarea name="respuesta" placeholder="Respuesta" id="answerIncorrect1"></textarea>
-                <label for="answerIncorrect2">Respuesta incorrecta #2</label>
-                <textarea name="respuesta" placeholder="Respuesta" id="answerIncorrect2"></textarea>
-            </div>
-        </form>
+        <button class="btn-ui" id="newQ">nPregunta</button>
+        <dialog class="form--questions" id="formQ">
+            <form action="" id="question">
+                <div class="wrapper--form-question">
+                    <label for="newQuestion">Pregunta</label>
+                    <textarea placeholder="Pregunta" id="newQuestion"></textarea>
+                </div>
+                <div class="wrapper--form--Select">
+                    <label for="answerCorrect">Respuesta Correcta</label>
+                    <textarea name="respuesta" placeholder="Respuesta Correcta" id="answerCorrect"></textarea>
+                    <label for="answerIncorrect1">Respuesta incorrecta #1</label>
+                    <textarea name="respuesta" placeholder="Respuesta" id="answerIncorrect1"></textarea>
+                    <label for="answerIncorrect2">Respuesta incorrecta #2</label>
+                    <textarea name="respuesta" placeholder="Respuesta" id="answerIncorrect2"></textarea>
+                </div>
+                <button id="closeQ">X</button>
+            </form>
+        </dialog>  
     </div>
+    <script src="main.js"></script>
+
 </body>
 </html>

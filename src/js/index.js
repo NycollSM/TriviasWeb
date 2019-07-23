@@ -6,3 +6,4 @@ import './registerServiceWorker';
 
 // DOM.
 import './register';
+import './play';
