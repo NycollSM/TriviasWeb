@@ -1,6 +1,28 @@
-#btn-play{
-    height: 100px;
+.wrapper--info--user{
+    grid-column: 1/span 2;
+    grid-row: 1/1;
+}
+.level {
+    align-self: end;
+    margin: 0 4px;
+}
+
+//center
+.wrapper--center{
     grid-column: 1 / span 2; 
+    grid-row: 2/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+.img--light{
+    grid-column: 2/3;
+    height: 200px;
+    width: 150px;
+}
+#btn-play{
+    grid-column: 1/ span 3;
+    height: 100px;
 }
 .wrapper--form-question{
     grid-column: 1 /span 2;
@@ -8,8 +30,25 @@
 .form--questions{
    //  display: none;
 }
+.wrapper--buttons{
+    grid-column: 2/2;
+    grid-row: 3/3;
+    align-items: end;
+}
 #newQ{
+    margin: 0 4px;
     padding: 10px;
-    height: 100px;
+    width: 64px;
+    height: 64px;
     border-radius: 100%;
+    align-self: end;
+}
+#infodev{
+    margin: 0 4px;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    background: transparent;
+    padding: 0px;
+    align-self: end;
 }

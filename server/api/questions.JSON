@@ -49,9 +49,43 @@
                 "c":"Tener texto grandes es mejor para los usuarios, asi lo leen todo de una vez"
             }
         ]
-    }
+    },
+    {
+      "question" : "Que se debe hacer cuando se quiere iniciar un nuevo proyecto en el area de diseño?",
+      "options":[
+          {
+              "value":true,
+              "a": "Hacer una investigacion previa de los requerimientoss"
 
-       
+          },
+          {
+              "value":false,
+              "b":"Buscar referenciales para tener una idea de lo que el cliente desea"
+
+          },
+          {
+              "value":false,
+              "c":"Buscar iconos y la paleta de colores"
+          }
+        ]  
+    },
+    {
+        "question":"Para que se utiliza el h1",
+        "options":[
+            {
+                "value":false,
+                "a":"Para insertar links"
+            },
+            {
+                "value":true,
+                "b":"Para poner el titulo principal"
+            },
+            {
+                "value":false,
+                "c": "Para insertar parrafos largos"
+            }
+        ]
+    }
        
     ]
 }

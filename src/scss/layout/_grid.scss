@@ -17,9 +17,9 @@
 .container2{
     background: $blue-light;
     height: 100vh;
-    padding: 10%;
+    padding: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr auto 1fr;
-    grid-gap: 14px;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
 }
