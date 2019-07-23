@@ -1,4 +1,4 @@
-10// Load styles.
+// Load styles.
 import '../scss/style.scss';
 
 // Register service worker.

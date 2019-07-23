@@ -2,7 +2,6 @@
 function loadAnimation() {
   const wrapperLoader = document.querySelector('.loader');
   wrapperLoader.className += ' hidden';
-  console.log(wrapperLoader);
 }
 
 const btnSignin = document.querySelector('.sign-in');
@@ -45,5 +44,5 @@ function modalComponents(event) {
 }
 
 window.addEventListener('load', loadAnimation);
-btnSignin.addEventListener('click', modalComponents);
 btnSignup.addEventListener('click', modalComponents);
+btnSignin.addEventListener('click', modalComponents);

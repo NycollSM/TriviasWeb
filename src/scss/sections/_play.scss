@@ -15,26 +15,32 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
 }
+
 .img--light{
     grid-column: 2/3;
     height: 200px;
     width: 150px;
 }
+
 #btn-play{
     grid-column: 1/ span 3;
     height: 100px;
 }
+
 .wrapper--form-question{
     grid-column: 1 /span 2;
 }
+
 .form--questions{
    //  display: none;
 }
+
 .wrapper--buttons{
     grid-column: 2/2;
     grid-row: 3/3;
     align-items: end;
 }
+
 #newQ{
     margin: 0 4px;
     padding: 10px;
@@ -43,6 +49,7 @@
     border-radius: 100%;
     align-self: end;
 }
+
 #infodev{
     margin: 0 4px;
     position: absolute;
