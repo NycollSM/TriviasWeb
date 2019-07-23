@@ -1,19 +1,41 @@
 .wrapper--info--user{
     grid-column: 1/span 2;
     grid-row: 1/1;
+    justify-content: center;
+}
+.user--name{
+    grid-column: 1/1;
+    
+    display: inline-block;
+    justify-self: end;
 }
 .level {
+    border-bottom: 2px solid $purple-dark;
+    grid-column: 2/2;
+    display: inline-block;
     align-self: end;
     margin: 0 4px;
 }
-
+.wrapper--info-dev{
+    display: none;
+    height: 100vh;
+    padding: 3%;
+    background: $blue-light;
+    position: fixed;
+}
+.info--titles{
+    color: $purple-dark;
+}
+.wrapper--info-dev p{
+    color: $white;
+    padding: 5px;
+}
 //center
 .wrapper--center{
     grid-column: 1 / span 2; 
     grid-row: 2/2;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
 }
 
 .img--light{
@@ -24,7 +46,7 @@
 
 #btn-play{
     grid-column: 1/ span 3;
-    height: 100px;
+    height: 80px;
 }
 
 .wrapper--form-question{
@@ -36,26 +58,25 @@
 }
 
 .wrapper--buttons{
-    grid-column: 2/2;
-    grid-row: 3/3;
-    align-items: end;
+    grid-column: 1/span 2;
+    grid-row: 2/2;
+    align-items: center;
+    margin: 10px 0;
 }
 
 #newQ{
-    margin: 0 4px;
+    grid-column: 1/1;
     padding: 10px;
     width: 64px;
     height: 64px;
     border-radius: 100%;
-    align-self: end;
 }
 
 #infodev{
-    margin: 0 4px;
-    position: absolute;
+    grid-column: 2/2;
     width: 64px;
     height: 64px;
     background: transparent;
     padding: 0px;
-    align-self: end;
+    justify-self: end;
 }

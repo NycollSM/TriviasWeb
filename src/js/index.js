@@ -5,5 +5,5 @@ import '../scss/style.scss';
 import './registerServiceWorker';
 
 // DOM.
-import './register';
 import './play';
+import './register';
